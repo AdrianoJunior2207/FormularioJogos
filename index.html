@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercicio Formulário</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Pesquisa sobre gêneros de Jogos</h1>
+      <br />
+      <h3>
+        Obrigado por disponibilizar seu tempo para nos ajudar nesta pesquisa!
+      </h3>
+    </header>
+
+    <fieldset>
+      <form class="" action="">
+        <div class="perguntaspessoais">
+          <label class="titulos" for="name">Nome</label>
+          <textarea
+            name="Nome"
+            id="name"
+            cols="60"
+            rows="2"
+            placeholder="Insira seu nome"
+          ></textarea>
+        </div>
+
+        <div class="perguntaspessoais">
+          <label class="titulos" for="email">E-mail</label>
+
+          <textarea
+            name="email"
+            id="email"
+            cols="60"
+            rows="2"
+            placeholder="Insira seu e-mail"
+          ></textarea>
+        </div>
+        <div class="perguntaspessoais">
+          <label class="titulos" for="idade">Idade (opcional)</label>
+
+          <textarea
+            name="idade"
+            id="idade"
+            cols="60"
+            rows="2"
+            placeholder="Insira sua idade"
+          ></textarea>
+        </div>
+
+        <br /><br />
+
+        <div class="generojogos">
+          <div class="jogofav">
+            <label for="genero">Qual seu gêneros de jogo favorito?</label>
+          </div>
+          <br />
+          <select name="genero" id="genero">
+            <option value="Luta">Luta</option>
+            <option value="Terror">Terror</option>
+            <option value="Ação e Aventura">Ação e Aventura</option>
+            <option value="MobaRpg">Moba e Rpg</option>
+            <option value="fps">FPS</option>
+            <option value="esporte">Esporte e Corrida</option>
+            <option value="puzzle">Puzzle</option>
+            <option value="outro">Outro não listado</option>
+          </select>
+        </div>
+
+        <br /><br />
+        <div>
+          <label for="outrodigite"
+            >Digite aqui caso seu gênero não esteja listado.</label
+          >
+          <br />
+          <textarea
+            name="outrodigite"
+            id="outrodigite"
+            cols="60"
+            rows="2"
+          ></textarea>
+        </div>
+
+        <br /><br />
+        <div class="horadia">
+          <label for="">Quantas horas você passa jogando por dia?</label>
+        </div>
+        <br />
+        <div class="opcoeshoradia">
+          <input type="radio" name="hora" id="hora" value="menosde1" />
+          <label for="menosde1">Menos de 1 hora</label>
+        </div>
+
+        <div class="opcoeshoradia">
+          <input type="radio" name="hora" id="1hr" value="1hr" />
+          <label for="1hr">1 Hora</label>
+        </div>
+
+        <div class="opcoeshoradia">
+          <input type="radio" name="hora" id="2hr" value="2hr" />
+          <label for="2hr">2 Horas</label>
+        </div>
+
+        <div class="opcoeshoradia">
+          <input type="radio" name="hora" id="3oumais" value="3oumais" />
+          <label for="3oumais">3 horas ou mais</label>
+        </div>
+
+        <br /><br />
+
+        <div class="plat">
+          <div class="divplat">
+            <label for="">Qual sua plataforma pra jogos?</label>
+          </div>
+          <br />
+          <div class="divplat">
+            <input type="checkbox" name="ps" id="ps" />
+            <label for="ps">Playstation</label>
+          </div>
+
+          <br />
+          <div class="divplat">
+            <input type="checkbox" name="xbox" id="xbox" />
+            <label for="xbox">Xbox</label>
+          </div>
+
+          <br />
+          <div class="divplat">
+            <input type="checkbox" name="PC" id="PC" />
+            <label for="PC">PC/Computador</label>
+          </div>
+          <br />
+          <div class="divplat">
+            <input type="checkbox" name="Switch" id="Switch" />
+            <label for="Switch">Nintendo Switch</label>
+          </div>
+
+          <br />
+          <div class="divplat">
+            <input type="checkbox" name="mobile" id="mobile" />
+            <label for="mobile">Mobile/Celular</label>
+          </div>
+        </div>
+
+        <br />
+
+        <div class="botao">
+          <button>Entregar Formulário</button>
+        </div>
+      </form>
+    </fieldset>
+  </body>
+</html>

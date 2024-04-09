@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* background-color: #51518F;  */
+}
+
+header {
+    display: grid;
+    justify-items: center;
+    color: white;
+    font: 16px 'Martian Mono', sans-serif;
+}
+
+
+header h1 {
+    padding: 15px;
+}
+
+header h3 {
+    font-weight: 150;
+    padding: 15px;
+}
+
+
+
+form div {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font: 16px 'Martian Mono', sans-serif;
+    color: white;
+
+
+}
+
+.titulos {
+    padding-bottom: 10px;
+}
+
+.perguntaspessoais {
+    padding: 15px;
+
+}
+
+section {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+fieldset {
+    margin: 10px 500px;
+    padding: 20px;
+    background-color: #2A2948;
+}
+
+body {
+    background-color: #51518F;
+
+}
+
+form textarea {
+    display: flex;
+    font: 13px 'Martian Mono', sans-serif;
+    padding-top: 15px;
+    align-items: center;
+    padding-left: 10px;
+    font-weight: 1000;
+    resize: none;
+
+}
+
+form textarea::placeholder {
+    font: 13px 'Martian Mono', sans-serif;
+    font-weight: 700;
+
+}
+
+.generojogos {
+    display: block;
+    margin-left: 141px;
+    font: 21px 'Martian Mono', sans-serif;
+
+
+}
+
+.jogofav {
+    display: block;
+}
+
+select {
+    font: 14px 'Martian Mono', sans-serif;
+    font-weight: 700;
+}
+
+.opcoeshoradia {
+    display: block;
+    margin-left: 141px;
+    padding-bottom: 12px;
+
+}
+
+.horadia {
+    display: block;
+    margin-left: 141px;
+}
+
+.plat {
+    display: inline-block;
+
+
+}
+
+.divplat {
+    display: block;
+    margin-left: 141px;
+
+}
+
+button {
+    all: unset;
+    color: #ffffff;
+
+    background-color: #51518F;
+    border-radius: 10px;
+
+
+}
+
+.botao {
+    display: flex;
+    background-color: #51518F;
+    border-radius: 100px;
+    margin: 25px 100px;
+    padding: 14px;
+    cursor: pointer;
+
+
+}
+
+input,
+select,
+option {
+    cursor: pointer;
+}
