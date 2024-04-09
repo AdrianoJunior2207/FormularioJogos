@@ -5,6 +5,7 @@
     /* background-color: #51518F;  */
 }
 
+
 header {
     display: grid;
     justify-items: center;
@@ -51,8 +52,8 @@ section {
 }
 
 fieldset {
-    margin: 10px 500px;
-    padding: 20px;
+    margin: 0px auto;
+    width: 50%;
     background-color: #2A2948;
 }
 
@@ -79,9 +80,9 @@ form textarea::placeholder {
 }
 
 .generojogos {
-    display: block;
-    margin-left: 141px;
+    display: grid;
     font: 21px 'Martian Mono', sans-serif;
+    
 
 
 }
@@ -96,26 +97,26 @@ select {
 }
 
 .opcoeshoradia {
-    display: block;
-    margin-left: 141px;
-    padding-bottom: 12px;
+    display:block;
+    gap: 10px;
+    
+    
+}
+
+.tudohora{
+    gap: 10px;
 
 }
 
 .horadia {
     display: block;
-    margin-left: 141px;
+    gap: 30px;
 }
 
-.plat {
-    display: inline-block;
 
-
-}
 
 .divplat {
     display: block;
-    margin-left: 141px;
 
 }
 
