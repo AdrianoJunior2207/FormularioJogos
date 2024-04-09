@@ -51,9 +51,13 @@ section {
 
 }
 
+body {
+    padding: 20px 24%;
+}
+
 fieldset {
     margin: 0px auto;
-    width: 50%;
+    
     background-color: #2A2948;
 }
 
@@ -123,8 +127,6 @@ select {
 button {
     all: unset;
     color: #ffffff;
-
-    background-color: #51518F;
     border-radius: 10px;
 
 
@@ -132,11 +134,11 @@ button {
 
 .botao {
     display: flex;
-    background-color: #51518F;
     border-radius: 100px;
     margin: 25px 100px;
-    padding: 14px;
+    padding: 0px;
     cursor: pointer;
+    
 
 
 }
