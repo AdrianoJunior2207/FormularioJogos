@@ -63,6 +63,7 @@ body {
 
 fieldset {
     margin: 0px auto;
+    padding: 25px;
     
     background-color: #2A2948;
 }
