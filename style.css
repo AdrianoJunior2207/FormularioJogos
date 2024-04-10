@@ -21,7 +21,7 @@ header {
 
 
 header h1 {
-    padding: 15px;
+    padding: 7px;
 }
 
 header h3 {
@@ -58,7 +58,7 @@ section {
 }
 
 body {
-    padding: 20px 24%;
+    padding: 10px 24%;
 }
 
 fieldset {
